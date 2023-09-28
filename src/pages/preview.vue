@@ -82,6 +82,7 @@ h2 {
 
 .user__children-list {
   display: flex;
+  gap: 10px 0;
   flex-direction: column;
   align-items: flex-start;
 }

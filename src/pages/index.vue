@@ -159,7 +159,7 @@ export default {
     },
   },
   mounted() {
-    const user = this.$store.getters['getUser'];
+    const user = { ...this.$store.getters['getUser'] };
     if (user.age && user.name && user.children) {
       this.age = user.age;
       this.name = user.name;
